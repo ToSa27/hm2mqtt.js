@@ -11,7 +11,9 @@
     "test": "camo-purge ; xo && nyc mocha --exit test.js && nyc report --reporter=text-lcov | coveralls --force",
     "testonly": "mocha --exit test.js",
     "lint": "xo",
-    "lintfix": "xo --fix"
+    "lintfix": "xo --fix",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -42,7 +44,8 @@
     "persist-json": "^1.2.0",
     "request": "^2.83.0",
     "yalm": "^4.1.0",
-    "yargs": "^11.0.0"
+    "yargs": "^11.0.0",
+    "snyk": "^1.192.4"
   },
   "devDependencies": {
     "camo-purge": "latest",
@@ -65,5 +68,6 @@
     "ignore": [
       "test.js"
     ]
-  }
+  },
+  "snyk": true
 }
