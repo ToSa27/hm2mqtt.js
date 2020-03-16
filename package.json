@@ -42,7 +42,7 @@
     "persist-json": "^1.2.0",
     "request": "^2.83.0",
     "yalm": "^4.1.0",
-    "yargs": "^11.0.0"
+    "yargs": "^13.1.0"
   },
   "devDependencies": {
     "camo-purge": "latest",
