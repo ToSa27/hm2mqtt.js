@@ -38,7 +38,7 @@
     "async": "^2.6.0",
     "binrpc": "^3.1.1",
     "homematic-xmlrpc": "^1.0.2",
-    "mqtt": "^2.15.1",
+    "mqtt": "^4.2.7",
     "persist-json": "^1.2.0",
     "request": "^2.83.0",
     "yalm": "^4.1.0",
